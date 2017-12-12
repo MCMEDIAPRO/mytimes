@@ -40,6 +40,7 @@ padding: 20px 10px;
 }
 
   <!-- "Begin Content" -->
+
 body {
   display: flex;
   }
@@ -52,22 +53,33 @@ body .container {
     border: 1px solid black;
 }
   <!-- "Begin Column large" -->
-body .column-large {
+.container column-large {
   display: flex;
   width: 630px;
   border: 1px solid black;
 }
-.column-large p {
-display: flex;
-    border: 1px solid black;
+.column-large div {
+  display: flex;
+  border: 1px solid black;
 }
+  <!-- "Begin Column Medium" -->
 body .column-medium {
   display: flex;
   width: 300px;
   border: 1px solid black;
 }
+.column-medium p {
+  display: flex;
+  border: 1px solid black;
+}
+
+  <!-- "Begin Column Small" -->
 body .column-small {
   display: flex;
   width: 240px;
+  border: 1px solid black;
+}
+.column-small p {
+  display: flex;
   border: 1px solid black;
 }
