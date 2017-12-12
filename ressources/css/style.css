@@ -22,7 +22,6 @@ header .logo {
   margin-right: 12px;
   border: 3px solid black;
 }
-
 .logo span {
   color: MediumAquamarine;
 }
@@ -31,56 +30,85 @@ header .nav {
   align-content: space-around;
   padding-right: 30px;
 }
-
 .nav span {
 color: Black;
 cursor: pointer;
 text-decoration: underline;
 padding: 20px 10px;
 }
-
-    <!-- "Main content container" -->
-
-body {
+body .container {
   display: flex;
-  }
 
-body .content {
-    display: flex;
-    width: 1232px;
-    margin: 0 auto 78px auto;
-    padding-top: 116px;
-    border: 1px solid black;
-
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  border: 1px solid black;
 }
-  <!-- "Begin Column large" -->
-.content column-large {
-  display: block;
+.container .columns {
+  display: flex;
+  flex-direction: row;
+  margin-right: 32px;
+  border: 1px solid black;
+  align-content: space-between;
+}
+.columns .large-column {
+  display: flex;
+  flex-direction: column;
   width: 630px;
   border: 1px solid black;
 }
-.column-large div{
+.large-column .headline {
   display: block;
   border: 1px solid black;
 }
-  <!-- "Begin Column Medium" -->
-.content column-medium {
+.large-column .monument {
   display: block;
+  border: 1px solid black;
+}
+.large-column .orca {
+  display: block;
+  border: 1px solid black;
+}
+.large-column .fall {
+  display: block;
+  border: 1px solid black;
+}
+.large-column .burger {
+  display: block;
+  border: 1px solid black;
+}
+.large-column .cameras {
+  display: block;
+  border: 1px solid black;
+}
+.columns .medium-column {
+  display: flex;
+  flex-direction: column;
   width: 300px;
   border: 1px solid black;
 }
-.column-medium div {
+.fbi {
   display: block;
   border: 1px solid black;
 }
-
-  <!-- "Begin Column Small" -->
-.content column-small {
+.cats {
   display: block;
+  border: 1px solid black;
+}
+.brooklyn {
+  display: block;
+  border: 1px solid black;
+}
+.small-column {
+  display: flex;
+  flex-direction: column;
   width: 240px;
   border: 1px solid black;
 }
-.column-small div {
+.cookie {
+  display: block;
+  border: 1px solid black;
+}
+.news-bites {
   display: block;
   border: 1px solid black;
 }
