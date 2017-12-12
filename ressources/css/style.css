@@ -39,47 +39,48 @@ text-decoration: underline;
 padding: 20px 10px;
 }
 
-  <!-- "Begin Content" -->
+    <!-- "Main content container" -->
 
 body {
   display: flex;
   }
 
-body .container {
+body .content {
     display: flex;
     width: 1232px;
     margin: 0 auto 78px auto;
     padding-top: 116px;
     border: 1px solid black;
+
 }
   <!-- "Begin Column large" -->
-.container column-large {
-  display: flex;
+.content column-large {
+  display: block;
   width: 630px;
   border: 1px solid black;
 }
-.column-large div {
-  display: flex;
+.column-large div{
+  display: block;
   border: 1px solid black;
 }
   <!-- "Begin Column Medium" -->
-body .column-medium {
-  display: flex;
+.content column-medium {
+  display: block;
   width: 300px;
   border: 1px solid black;
 }
-.column-medium p {
-  display: flex;
+.column-medium div {
+  display: block;
   border: 1px solid black;
 }
 
   <!-- "Begin Column Small" -->
-body .column-small {
-  display: flex;
+.content column-small {
+  display: block;
   width: 240px;
   border: 1px solid black;
 }
-.column-small p {
-  display: flex;
+.column-small div {
+  display: block;
   border: 1px solid black;
 }
