@@ -1,4 +1,4 @@
-header {
+ header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
@@ -38,52 +38,47 @@ padding: 20px 10px;
 }
 body .container {
   display: flex;
-
   margin: 0 auto 78px auto;
   padding-top: 116px;
   border: 1px solid black;
+  justify-content: space-around;
 }
-.container .columns {
-  display: flex;
-  flex-direction: row;
-  margin-right: 32px;
-  border: 1px solid black;
-  align-content: space-between;
-}
-.columns .large-column {
+.large-column {
   display: flex;
   flex-direction: column;
   width: 630px;
+  margin-right: 32px;
   border: 1px solid black;
 }
-.large-column .headline {
+.image-content {
   display: block;
   border: 1px solid black;
 }
-.large-column .monument {
+.monument {
   display: block;
   border: 1px solid black;
 }
-.large-column .orca {
+.orca {
   display: block;
   border: 1px solid black;
 }
-.large-column .fall {
+.fall {
   display: block;
   border: 1px solid black;
 }
-.large-column .burger {
+.burger {
   display: block;
   border: 1px solid black;
 }
-.large-column .cameras {
+.cameras {
   display: block;
   border: 1px solid black;
 }
-.columns .medium-column {
+.medium-column {
   display: flex;
   flex-direction: column;
   width: 300px;
+  margin-right: 32px;
   border: 1px solid black;
 }
 .fbi {
@@ -102,6 +97,7 @@ body .container {
   display: flex;
   flex-direction: column;
   width: 240px;
+  margin-right: 32px;
   border: 1px solid black;
 }
 .cookie {
