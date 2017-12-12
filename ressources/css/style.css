@@ -43,7 +43,7 @@ body .container {
   border: 1px solid black;
   justify-content: space-around;
 }
-.large-column {
+.container large-column {
   display: flex;
   flex-direction: column;
   width: 630px;
@@ -52,7 +52,14 @@ body .container {
 }
 .image-content {
   display: block;
+  background-image: url("../img/img-story-main.png");
   border: 1px solid black;
+}
+.image-content span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 .monument {
   display: block;
@@ -62,19 +69,33 @@ body .container {
   display: block;
   border: 1px solid black;
 }
-.fall {
+.image-fall {
   display: block;
+  background-image: url("../img/img-story-2.png");
   border: 1px solid black;
+}
+.image-fall span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 .burger {
   display: block;
   border: 1px solid black;
 }
-.cameras {
+.camera-image {
   display: block;
+  background-image: url("../img/img-story-3.png");
   border: 1px solid black;
 }
-.medium-column {
+.camera-image span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.container medium-column {
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -85,15 +106,22 @@ body .container {
   display: block;
   border: 1px solid black;
 }
-.cats {
+.cat-image {
   display: block;
+  background-image: url("../img/img-story-3.png");
   border: 1px solid black;
+}
+.cat-image span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 .brooklyn {
   display: block;
   border: 1px solid black;
 }
-.small-column {
+.container small-column {
   display: flex;
   flex-direction: column;
   width: 240px;
