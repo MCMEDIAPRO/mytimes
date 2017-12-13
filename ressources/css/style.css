@@ -42,9 +42,10 @@ body .container {
   padding-top: 116px;
   border: 1px solid black;
   justify-content: space-around;
+  flex-direction: row;
 }
-.container column-large {
-  display: flex;
+.container .column-large {
+  display: block;
   flex-direction: column;
   width: 630px;
   margin-right: 32px;
@@ -130,15 +131,11 @@ body .container {
   color: white;
   text-align: center;
 }
-.container column-medium {
-  display: flex;
+.container .column-medium {
+  display: block;
   flex-direction: column;
   width: 300px;
   margin-right: 32px;
-  border: 1px solid black;
-}
-.fbi {
-  display: block;
   border: 1px solid black;
 }
 .cat-image {
@@ -161,12 +158,8 @@ body .container {
   font-size: 30px;
   color: white;
 }
-.brooklyn {
+.column-small {
   display: block;
-  border: 1px solid black;
-}
-.container column-small {
-  display: flex;
   flex-direction: column;
   width: 240px;
   margin-right: 32px;
