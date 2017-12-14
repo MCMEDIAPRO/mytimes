@@ -41,15 +41,12 @@ body .container {
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
-  border: 1px solid black;
 }
 .container .column-large {
   display: flex;
   flex-direction: column;
   width: 630px;
   margin-right: 32px;
-  padding: 20px;
-  border: 1px solid black;
 }
 .lead-story {
   width: 630px;
@@ -57,14 +54,12 @@ body .container {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  border: 1px solid black;
 }
 .image-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-image: url("../img/img-story-main.png");
-  border: 1px solid black;
   width: 630px;
   height: 300px;
   margin-top: 0;
@@ -81,37 +76,33 @@ body .container {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-      margin-top: 16px;
+  margin-top: 16px;
 }
 .stories {
   display: flex;
   justify-content: space-between;
-  margin-top: 17px;
   font-family: Georgia;
   font-size: 17px;
   color: black;
   width: 630px;
-  margin-top: 0;
+  margin-top: 17px;
 }
 .story {
   display: flex;
   flex-direction: column;
   width: 300px;
-  border: 1px solid black;
+  justify-content: space-between;
 }
 .text-content {
-  height: 250px;
   display: block;
-  border: 1px solid black;
 }
 .fall-cancelled {
-  display: flex;
+  display: block;
   background-image: url("../img/img-story-2.png");
   flex-direction: column;
   justify-content: center;
   height: 300px;
   margin-top: 15px;
-  border: 1px solid black;
   text-align: center;
 }
 .fall-cancelled span {
@@ -121,13 +112,12 @@ body .container {
   color: white;
 }
 .pop-culture {
-  display: flex;
+  display: block;
   background-image: url("../img/img-story-3.png");
   flex-direction: column;
   justify-content: center;
   height: 300px;
   margin-top: 15px;
-  border: 1px solid black;
   text-align: center;
 }
 .pop-culture span {
@@ -135,15 +125,12 @@ body .container {
   font-weight: bold;
   font-size: 30px;
   color: white;
-  text-align: center;
 }
 .container .column-medium {
   display: flex;
   flex-direction: column;
   width: 300px;
   margin-right: 32px;
-  padding: 20px;
-  border: 1px solid black;
 }
 .story {
   display: flex;
@@ -151,9 +138,14 @@ body .container {
   width: 300px;
 }
 .text-content {
-  height: 300px;
   display: block;
-  border: 1px solid black;
+}
+.narrative {
+  margin-top: 16px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-top: 16px;
 }
 .cat-ceo {
   display: flex;
@@ -162,7 +154,6 @@ body .container {
   justify-content: center;
   height: 300px;
   margin-top: 15px;
-  border: 1px solid black;
   text-align: center;
 }
 .cat-ceo span {
@@ -176,22 +167,19 @@ body .container {
   display: flex;
   flex-direction: column;
   width: 240px;
-  margin-right: 32px;
-  padding: 20px;
-  border: 1px solid black;
 }
-.img.cookie {
+.img-cookie {
   height: 240px;
-  border: 1px solid black;
-}
-.narrative {
-  margin-top: 16px;
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-      margin-top: 16px;
 }
 .news-bites {
   display: block;
-  border: 1px solid black;
+}
+.news-bites .bites {
+  display: block;
+padding: 11px 20px;
+border-bottom: 1px solid black;
+background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
 }
